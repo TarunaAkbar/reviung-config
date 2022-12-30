@@ -23,7 +23,7 @@
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp ENTER
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mo 3
-                        &kp LGUI  &mo 1  &lt 3 SPACE  &mo 2  &kp RALT
+                        &kp LGUI  &lt 2 mo 1  &lt 3 SPACE  &mo 2  &kp RALT
                         >;
                 };
 
@@ -62,10 +62,10 @@
 // |          |          |          |          |    |         |   | RESET |     |     |     |     |        |
 //                                              |     |     |     |     |     |
                         bindings = <
-   &none  &none     &kp UP    &none      &none  &rgb_ug RGB_TOG    &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4 &bt BT_CLR
+   &none  &none     &kp UP    &none      &none  &rgb_ug RGB_TOG    &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4 &none
    &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none              &rgb_ug RGB_BRI &rgb_ug RGB_SAI  &rgb_ug RGB_HUI &rgb_ug RGB_EFF &none        &none
    &none  &none     &none     &none      &none  &none              &rgb_ug RGB_BRD &rgb_ug RGB_SAD  &rgb_ug RGB_HUD &rgb_ug RGB_EFR &reset       &bootloader
-                                &trans      &trans       &tog 3        &trans      &trans
+                                &trans      &trans       &tog 3        &trans      &bt BT_CLR
                         >;
                 };
         };
